@@ -62,9 +62,5 @@ openBtn.addEventListener("click", () => {
 });
 
 closeBtn.addEventListener("click", () => {
-  dialog.classList.add("closing");
-  setTimeout(() => {
-    dialog.classList.remove("closing");
-    dialog.close();
-  }, 300);
+  dialog.close();
 });
