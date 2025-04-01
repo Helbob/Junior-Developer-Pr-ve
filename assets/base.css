@@ -463,27 +463,11 @@ dialog button {
   }
 
   dialog {
-    inset: 50% auto auto 50%;
-    transform: translate(-50%, -50%);
-    border: none;
     padding: 8%;
-    text-align: start;
-    border-radius: 10px;
     width: 330px;
   }
 
   dialog button {
-    border: none;
-    color: rgb(99, 99, 99);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 15px;
-    cursor: pointer;
-    margin-top: 2%;
-    position: absolute;
-    top: 0px;
-    left: 18px;
     font-size: 0.8rem;
   }
 }
